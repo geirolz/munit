@@ -4,11 +4,11 @@ addSbtPlugin("org.scalameta" % "sbt-mdoc" % "2.2.23")
 addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.4.3")
 addSbtPlugin("ch.epfl.scala" % "sbt-scalafix" % "0.9.34")
 
-addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "1.2.0")
+addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "1.3.2")
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.10.0")
 libraryDependencies += "org.scala-js" %% "scalajs-env-jsdom-nodejs" % "1.1.0"
 
-addSbtPlugin("org.portable-scala" % "sbt-scala-native-crossproject" % "1.2.0")
+addSbtPlugin("org.portable-scala" % "sbt-scala-native-crossproject" % "1.3.2")
 addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.4.4")
 
 addSbtPlugin("com.typesafe" % "sbt-mima-plugin" % "1.1.0")
